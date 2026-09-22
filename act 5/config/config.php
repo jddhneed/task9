@@ -10,7 +10,7 @@ define('APP_ROOT', dirname(dirname(__FILE__)));
 define('URL_ROOT', 'https://' . $_SERVER['HTTP_HOST'] . '/' . PARENT_DIR);
 
 // Site Name
-define('SITE_NAME', 'PHP MVC Practice 1');
+define('SITE_NAME', 'PHP 5 task');
 
 // App Version
 define('APP_VERSION', '1.0.0');
