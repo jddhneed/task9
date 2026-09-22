@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f4f3;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #0f3d3e;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #7dd3c0;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(15, 61, 62, 0.10);
+    overflow: hidden;
+}
+
+.form-header {
+    background-color: #ecf7f5;
+    padding: 18px 25px;
+    border-bottom: 1px solid #d7ebe7;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f3d3e;
+}
+
+.form-body {
+    padding: 30px 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #355c58;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cfe3df;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #14a085;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(20, 160, 133, 0.15);
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn-submit {
+    background-color: #14a085;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #0f8069;
+}
+
+.btn-cancel {
+    background-color: #e2e8f0;
+    color: #374151;
+}
+
+.btn-cancel:hover {
+    background-color: #cbd5e1;
+}
